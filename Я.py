@@ -14,11 +14,15 @@ print('Любите покушать?(1 - ДА, 2 - НЕТ, 3 - ВОЗМОЖНО
 h = int(input())
 print('Любите поспать?(1 - ДА, 2 - НЕТ')
 j = int(input())
+print('Кто вы такой?(1 - человек, 2 - инопришеленец)')
+k = int(input())
+print('Любите играть(1 - ДА, 2 - НЕТ)')
+l = int(input())
 
 
 
       
-if c == 2 and d == 3 and f == 4 and g == 2 and g == 1 and j == 2:
+if c == 2 and d == 3 and f == 4 and g == 2 and g == 1 and j == 2 and k == 2 and l == 1:
     print('Мы с вами подружимся!')
 elif c == 2 and d == 3:
     print('Мы возможно подружимся!')
